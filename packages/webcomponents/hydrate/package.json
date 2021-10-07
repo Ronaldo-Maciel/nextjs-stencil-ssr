@@ -1,0 +1,6 @@
+{
+  "name": "stencil-webcomponents/hydrate",
+  "description": "webcomponents component hydration app.",
+  "main": "index.js",
+  "types": "index.d.ts"
+}

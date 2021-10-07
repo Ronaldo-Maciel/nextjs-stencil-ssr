@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-stencil-ssr",
+  "version": "1.0.0",
+  "description": "Server Side Render Web Components with NextJs and StencilJs",
+  "main": "index.js",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "client": "yarn workspace stencil-webcomponents build",
+    "server": "yarn workspace server dev"
+  },
+  "repository": {
+    "url": "https://github.com/Ronaldo-Maciel/nextjs-stencil-ssr"
+  },
+  "author": "Ronaldo Maciel",
+  "license": "MIT"
+}
